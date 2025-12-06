@@ -1,0 +1,110 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* IMPORTANDO FONTES */
+@font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ESTILO DESKTOP */
+body{
+    background-color: #0E1014;
+    color: #F5F5F5;
+}
+
+.img_logo{
+    display: block;
+    margin: 50px 0 0 100px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    margin-top: 60px
+}
+
+p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width: 792px;
+    margin: 24px auto 0;
+}
+span{
+    color: #9747FF
+}
+
+a{
+    font-size: 24px;
+    color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    background-color: #9747FF;
+    display: block;
+    width: 340px;
+    height: 66p;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover{
+    background-color: #8233E8;
+}
+
+.img_cells{
+    display: block;
+    margin: 0 auto;
+    width: 792px;
+    height: 446px;
+}
+
+/* ADAPTANDO AO TABLET */
+
+@media(max-width: 768px){
+    
+    .img_logo{
+        margin: 65px 0 0 60px
+    }
+
+    p{
+        width: 648px;
+    }
+}
+
+@media(max-width: 375px){
+    .img_logo{
+        margin: 32px 0 0 16px
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    a{
+        font-size: 20px;
+        width: 340px;
+    }
+    .img_cells{
+        width: 340px;
+        height: 230px;
+    }
+}
