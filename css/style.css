@@ -54,7 +54,7 @@ a{
     color: #F5F5F5;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    background-color: #07119b;
+    background-color: #9747FF;
     display: block;
     width: 340px;
     height: 66p;
@@ -65,7 +65,7 @@ a{
 }
 
 a:hover{
-    background-color: #1e436d;
+    background-color: #8233E8;
 }
 
 .img_cells{
